@@ -18,9 +18,9 @@ main :: IO ()
 main = do
     cmd <- getLine
     -- check cmd
-    
+    print cmd
     args <- getArgs 
     -- check args
-
+    print args
     -- do things
     return ()

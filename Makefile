@@ -1,11 +1,11 @@
 
-SRC    =    DoOp.hs 
+SRC    =    pushswapchecker.hs
 
 OBJ    =    $(SRC:.hs=.o)
 
 HIOBJ =     $(SRC:.hs=.hi)
 
-NAME    = doop
+NAME    = pushswap_checker
 
 all:    objs
 
